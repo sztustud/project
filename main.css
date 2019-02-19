@@ -115,7 +115,7 @@ footer {
 .content {
     display: grid;
     grid-auto-flow: row;
-    grid-gap: 10px;
+    /* grid-gap: 10px; */
 }
 
 .death-page {
@@ -130,7 +130,7 @@ footer {
       grid-auto-flow: column;
       justify-items: center;
       align-items: center;
-      border: 1px solid black;
+      /* border: 1px solid black; */
   }
 
 .rinswind {
