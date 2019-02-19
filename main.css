@@ -137,6 +137,26 @@ footer {
       border: 1px solid black;
   }
 
+.rinswind {
+        background-color: #d6a0d2;
+    }
+
+.witches {
+    background-color: #526a30;
+}
+
+.death {
+    background-color: #251d2c;
+}
+
+.guards {
+    background-color: #4f1f1d;
+}
+
+.postman {
+    background-color: #382988;
+}
+
   .block {
       display: grid;
   }
