@@ -3,17 +3,6 @@
     margin: 0%;
 }
 
-ul 
-{ 
-   display: none;
-   background-color: yellow;
-   grid-template-columns: repeat(5 1fr);
-} 
-
-li {
-    display: inline;
-}
-
 .mor-item {
     background-image: url('img/mor.jpg');
     width: 250px;
