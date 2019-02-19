@@ -157,3 +157,7 @@ footer {
   .block {
       display: grid;
   }
+
+  a {
+      text-decoration: none;
+  }
