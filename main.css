@@ -76,14 +76,14 @@ body {
 @media screen {
 .empty {
     border: 10px solid red;
-    height: 5vh;
+    height: 50vh;
 }
 }
 
 @media handheld {
 .empty {
     height: 10vh;
-    border: 10px solid black;
+    border: 100px solid black;
 }
 }
 
