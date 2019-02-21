@@ -55,3 +55,9 @@ header {
     display: grid;
     justify-content: space-around;
 }
+
+@media (max-width:320px) {
+    .text {
+        grid-row: 1;
+    }
+}
