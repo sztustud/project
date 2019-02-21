@@ -25,7 +25,7 @@ body {
 }
 
 header {
-    text-align: center;
+    display: grid;
     position: fixed;
 }
 
@@ -34,6 +34,5 @@ header {
     background-image: url('img/top.jpg');
     text-align: center;
     grid-template-rows: 88vh;
-    justify-content: center;
     align-items: center;
 }
