@@ -7,6 +7,7 @@ html {
     background-color: rgb(225, 241, 232);
     display: grid;
     justify-content: center;
+    scroll-behavior: smooth;
 }
 
 body {
