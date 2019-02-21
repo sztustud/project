@@ -75,6 +75,7 @@ body {
 
 @media screen {
 .empty {
+    border: 1px solid red;
     height: 5vh;
 }
 }
@@ -82,6 +83,7 @@ body {
 @media handheld {
 .empty {
     height: 10vh;
+    border: 1px solid black;
 }
 }
 
