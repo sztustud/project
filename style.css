@@ -35,19 +35,19 @@ header {
     align-items: center;
 }
 
-.rinswind, .witches, .death, .guard {
+.rinswind, .witches, .death, .guard, .postal {
     display: grid;
     grid-template-columns: 1fr 1fr;
     align-items: center;
     text-align: center;
 }
 
-.rinswind .pic {
+.right {
     display: grid;
-    justify-items: flex-end;
+    justify-items: flex-start;
 }
 
-.death .pic {
+.left {
     display: grid;
     justify-items: flex-end;
 }
