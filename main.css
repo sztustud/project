@@ -73,11 +73,9 @@ body {
     display: grid;
 }
 
-@media screen {
 .empty {
     border: 10px solid red;
     height: 50vh;
-}
 }
 
 @media (min-width: 500px) {
