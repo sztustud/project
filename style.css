@@ -30,9 +30,9 @@ header {
 
 .top {
     background-image: url('img/turtle.jpg');
-    grid-template-columns: 900px;
-    grid-template-rows: 700px;
     background-repeat: no-repeat;
     justify-content: center;
-    text-align: center
+    text-align: center;
+    background-size: cover;
+    color: white;
 }
