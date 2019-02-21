@@ -43,3 +43,15 @@ header {
     grid-template-rows: 99vh;
     align-items: center;
 }
+
+.rinswind {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    align-items: center;
+    text-align: center;
+}
+
+.rinswind .pic {
+    display: grid;
+    justify-items: flex-end;
+}
