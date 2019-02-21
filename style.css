@@ -44,7 +44,7 @@ header {
     align-items: center;
 }
 
-.rinswind {
+.rinswind, .witchers {
     display: grid;
     grid-template-columns: 1fr 1fr;
     align-items: center;
