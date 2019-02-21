@@ -17,6 +17,8 @@ body {
 
 .content {
     display: grid;
+    grid-auto-columns: 75vw;
+    justify-content: center;
 }
 header {
     background-color: white;
