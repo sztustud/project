@@ -3,6 +3,10 @@
     margin: 0%;
 }
 
+html {
+    background-color: antiquewhite;
+}
+
 .item {
     width: 250px;
     height: 300px;
@@ -82,8 +86,7 @@ footer {
     background-image: url('img/turtle.jpg');
     background-size: contain;
     text-align: center;
-    color: goldenrod;
-    grid-template-rows: 88vh;
+    color: white;
     align-items: center;
     background-repeat: no-repeat;
     justify-items: center;
@@ -92,7 +95,7 @@ footer {
 .content {
     display: grid;
     color: gold;
-    grid-template-columns: repeat(auto-fill, 300px);
+    grid-template-columns: repeat(auto-fit, 300px);
 }
 
 .death-page {
