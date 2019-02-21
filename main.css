@@ -80,7 +80,7 @@ body {
 }
 }
 
-@media (max-width: 500px) {
+@media (min-width: 500px) {
 .empty {
     height: 10vh;
     border: 100px solid black;
