@@ -71,7 +71,6 @@ input[name=reading-mor]:checked ~ .mor-item {
 body {
     background-color: aliceblue;
     display: grid;
-    grid-gap: 1vw;
 }
 
 .empty {
