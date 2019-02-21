@@ -57,6 +57,7 @@ input[name=reading-mor]:checked ~ .mor {
 
 body {
     display: grid;
+    justify-content: center;
 }
 
 .empty {
@@ -80,11 +81,13 @@ footer {
     grid-template-rows: 466px;
     display: grid;
     background-image: url('img/turtle.jpg');
-    background-size: cover;
+    background-size: contain;
     text-align: center;
     color: goldenrod;
     grid-template-rows: 88vh;
     align-items: center;
+    background-repeat: no-repeat;
+    justify-items: center;
 }
 
 .content {
