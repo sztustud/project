@@ -1,0 +1,33 @@
+html {
+    background-color: rgb(225, 241, 232);
+    display: grid;
+    justify-content: center;
+}
+
+body {
+    display: grid;
+    grid-template-columns: 75vw;
+    justify-content: center;
+    background-color: white;
+}
+
+.content {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, 300px);
+}
+
+.pic {
+    background-color: aqua;
+}
+
+.text {
+    background-color: aquamarine;
+}
+
+header {
+    text-align: center;
+}
+
+.top {
+    
+}
