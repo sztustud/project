@@ -76,7 +76,7 @@ footer {
 }
 
 .top {
-    grid-template-columns: 1fr;
+    grid-template-columns: 600px;
     display: grid;
     background-image: url('img/turtle.jpg');
     background-size: cover;
