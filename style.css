@@ -2,6 +2,7 @@
     display: grid;
     grid-gap: 1px;
     grid-template-columns: repeat(1fr 1fr);
+    grid-auto-flow: column;
 }
 
 .item-2 {
