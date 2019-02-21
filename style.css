@@ -44,10 +44,11 @@ header {
 
 .right {
     display: grid;
-    justify-items: flex-start;
+    /* justify-items: flex-start; */
+    justify-content: space-around;
 }
 
 .left {
     display: grid;
-    justify-items: flex-end;
+    justify-content: space-around;
 }
