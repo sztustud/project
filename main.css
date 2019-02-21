@@ -3,64 +3,51 @@
     margin: 0%;
 }
 
-.mor-item {
+.item {
+    width: 250px;
+    height: 300px;
+    background-repeat: no-repeat;
+}
+
+.mor {
     background-image: url('img/mor.jpg');
-    width: 250px;
-    height: 300px;
-    background-repeat: no-repeat;
 }
 
-.rock-item {
+.rock {
     background-image: url('img/rock.jpg');
-    width: 250px;
-    height: 300px;
-    background-repeat: no-repeat;
+
 }
 
-.santa-item {
+.santa {
     background-image: url('img/santa.jpg');
-    width: 250px;
-    height: 300px;
-    background-repeat: no-repeat;
 }
 
-.zhnech-item {
+.zhnech {
     background-image: url('img/zhnech.jpg');
-    width: 250px;
-    height: 300px;
-    background-repeat: no-repeat;
 }
 
-.vor-item {
+.vor {
     background-image: url('img/vor.jpg');
-    width: 250px;
-    height: 300px;
-    background-repeat: no-repeat;
 }
 
-input[name=reading-mor]:checked ~ .mor-item {
-    opacity: .5;
+input[name=reading-mor]:checked ~ .mor {
     background-image: url('img/read.jpg');
  }
 
- input[name=reading-rock]:checked ~ .rock-item {
-    opacity: .5;
+ input[name=reading-rock]:checked ~ .rock {
     background-image: url('img/read.jpg');
  }
  
- input[name=reading-santa]:checked ~ .santa-item {
+ input[name=reading-santa]:checked ~ .santa {
     background-image: url('img/read.jpg');
-    opacity: .5;
  }
 
- input[name=reading-zhnech]:checked ~ .zhnech-item {
+ input[name=reading-zhnech]:checked ~ .zhnech {
     background-image: url('img/read.jpg');
-    opacity: .5;
  }
 
- input[name=reading-vor]:checked ~ .vor-item {
+ input[name=reading-vor]:checked ~ .vor {
     background-image: url('img/read.jpg');
-    opacity: .5;
  }
 
 
@@ -69,7 +56,6 @@ input[name=reading-mor]:checked ~ .mor-item {
 }
 
 body {
-    background-color: aliceblue;
     display: grid;
 }
 
@@ -102,7 +88,6 @@ footer {
 
 .content {
     display: grid;
-    /* grid-auto-flow: row; */
     color: gold;
     grid-template-columns: repeat(auto-fill, 300px);
 }
@@ -115,8 +100,6 @@ footer {
 
   .rinswind, .witches, .death, .guards, .postman {
       display: grid;
-      /* grid-template-columns: repeat (auto-fill, 300px); */
-      /* grid-auto-flow: column; */
       justify-items: center;
       align-items: center;
   }
