@@ -56,7 +56,7 @@ header {
     justify-content: space-around;
 }
 
-@media (max-width:320px) {
+@media (max-width:800px) {
     .text {
         grid-row: 1;
     }
