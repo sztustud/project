@@ -44,7 +44,7 @@ header {
     align-items: center;
 }
 
-.rinswind, .witchers {
+.rinswind, .witches, .death {
     display: grid;
     grid-template-columns: 1fr 1fr;
     align-items: center;
@@ -52,6 +52,11 @@ header {
 }
 
 .rinswind .pic {
+    display: grid;
+    justify-items: flex-end;
+}
+
+.death .pic {
     display: grid;
     justify-items: flex-end;
 }
