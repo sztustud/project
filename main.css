@@ -114,7 +114,7 @@ footer {
 
   .rinswind, .witches, .death, .guards, .postman {
       display: grid;
-      grid-template-columns: repeat (auto-fill, 100px);
+      grid-template-columns: repeat (auto-fill, 300px);
       /* grid-auto-flow: column; */
       justify-items: center;
       align-items: center;
