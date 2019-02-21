@@ -1,3 +1,8 @@
+* {
+    padding: 0%;
+    margin: 0%;
+}
+
 html {
     background-color: rgb(225, 241, 232);
     display: grid;
@@ -6,14 +11,12 @@ html {
 
 body {
     display: grid;
-    grid-template-columns: 75vw;
     justify-content: center;
     background-color: white;
 }
 
 .content {
     display: grid;
-    grid-template-columns: repeat(auto-fit, 300px);
 }
 
 .pic {
@@ -25,8 +28,11 @@ body {
 }
 
 header {
+    background-color: white;
     display: grid;
+    grid-auto-columns: 100vw;
     position: fixed;
+    border-bottom: 1px solid black;
 }
 
 .top {
