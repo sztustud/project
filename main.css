@@ -67,7 +67,6 @@ body {
 header {
     cursor: pointer;
     position: fixed;
-    background-color: antiquewhite;
     width: 100%;
     text-align: center;
 }
