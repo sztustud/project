@@ -73,8 +73,16 @@ body {
     display: grid;
 }
 
+@media screen {
 .empty {
     height: 5vh;
+}
+}
+
+@media handheld {
+.empty {
+    height: 10vh;
+}
 }
 
 header {
