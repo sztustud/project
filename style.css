@@ -18,15 +18,6 @@ body {
 .content {
     display: grid;
 }
-
-.pic {
-    background-color: aqua;
-}
-
-.text {
-    background-color: aquamarine;
-}
-
 header {
     background-color: white;
     display: grid;
@@ -44,7 +35,7 @@ header {
     align-items: center;
 }
 
-.rinswind, .witches, .death {
+.rinswind, .witches, .death, .guard {
     display: grid;
     grid-template-columns: 1fr 1fr;
     align-items: center;
