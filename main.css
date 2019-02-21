@@ -74,15 +74,7 @@ body {
 }
 
 .empty {
-    border: 10px solid red;
-    height: 50vh;
-}
-
-@media (min-width: 500px) {
-.empty {
     height: 10vh;
-    border: 100px solid black;
-}
 }
 
 header {
