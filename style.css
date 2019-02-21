@@ -29,9 +29,12 @@ header {
 }
 
 .top {
+    display: grid;
     background-image: url('img/turtle.jpg');
     background-repeat: no-repeat;
     justify-content: center;
     text-align: center;
     background-size: cover;
+    grid-template-columns: 1fr;
+    grid-template-rows: 88vh;
 }
