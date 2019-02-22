@@ -61,3 +61,8 @@ header {
         grid-row: 1;
     }
 }
+
+.empty {
+    height: 35px;
+    opacity: 1;
+}
