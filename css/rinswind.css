@@ -9,3 +9,8 @@ ul {
     list-style-type: none;
     grid-gap: 10px;
 }
+
+header {
+    background-color: black;
+    color: white;
+}
