@@ -48,7 +48,6 @@ header {
 
 .right {
     display: grid;
-    /* justify-items: flex-start; */
     justify-content: space-around;
 }
 
