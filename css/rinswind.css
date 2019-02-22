@@ -3,14 +3,14 @@
     margin: 0%;
 }
 
-ul {
+.header-ul {
     display: grid; 
     grid-auto-flow: column;
     list-style-type: none;
     justify-content: space-around;
 }
 
-header {
+header, .mini-header {
     display: grid;
     background-color: black;
     color: white;
@@ -39,6 +39,20 @@ footer {
 
 @media (min-width:800px) {
     .mini-header {
+        display: none ;
+    }
+}
+
+@media (max-width:800px) {
+    header {
         display: none;
     }
+}
+
+.mini-ul {
+    display: none;
+}
+
+.mini-header:hover .mini-ul {
+    display: block;
 }
