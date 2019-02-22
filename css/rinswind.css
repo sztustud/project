@@ -10,11 +10,14 @@
     justify-content: space-around;
 }
 
+.content {
+    display: grid;
+}
+
 header, .mini-header {
     display: grid;
     background-color: black;
     color: white;
-    grid-template-columns: 98vw;
 }
 
 .first, .second {
