@@ -36,3 +36,9 @@ footer {
     display: grid;
     grid-template-columns: 98vw;
 }
+
+@media (min-width:800px) {
+    .mini-header {
+        display: none;
+    }
+}
