@@ -11,7 +11,9 @@ ul {
 }
 
 header {
+    display: grid;
     background-color: black;
     color: white;
     width: 100%;
+    justify-content: space-around;
 }
