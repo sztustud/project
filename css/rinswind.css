@@ -30,3 +30,8 @@ a {
     text-decoration: none;
     color: white;
 }
+
+footer {
+    display: grid;
+    grid-template-columns: 98vw;
+}
