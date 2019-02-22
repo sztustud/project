@@ -33,7 +33,7 @@ header {
     display: grid;
     background-image: url('../img/top.jpg');
     text-align: center;
-    grid-template-columns: 99vw;
+    grid-template-columns: 98vw;
     grid-template-rows: 99vh;
     align-items: center;
 }
