@@ -16,3 +16,12 @@ header {
     color: white;
     width: 100%;
 }
+
+.first, .second {
+    display: grid;
+    justify-items: center;
+}
+
+.second {
+    background-color: darkgray;
+}
