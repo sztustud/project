@@ -7,7 +7,7 @@ ul {
     display: grid; 
     grid-auto-flow: column;
     list-style-type: none;
-    grid-gap: 10px;
+    justify-content: space-around;
 }
 
 header {
@@ -15,5 +15,4 @@ header {
     background-color: black;
     color: white;
     width: 100%;
-    justify-content: space-around;
 }
