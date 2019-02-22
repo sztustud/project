@@ -3,6 +3,9 @@
     margin: 0%;
 }
 
-li {
-    display: inline; 
+ul {
+    display: grid; 
+    grid-auto-flow: column;
+    list-style-type: none;
+    grid-gap: 10px;
 }
