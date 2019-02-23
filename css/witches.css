@@ -9,9 +9,20 @@ header {
         color: #c7c5c3;
 }
 
-ul, li {
+header ul, header li {
         display: grid;
         grid-auto-flow: column;
         justify-content: space-around;
         align-content: center;
 }
+
+.content {
+        display: grid;
+        background-color: #1c3e55;
+        grid-template-columns: 75vw;
+}
+
+.content ul{
+        color: #66c0f4;
+}
+
