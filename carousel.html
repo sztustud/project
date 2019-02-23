@@ -47,16 +47,6 @@
     <span class="sr-only">Next</span>
   </a>
 </div>
-<script>
-var hammer = new Hammer(document.querySelector('.carousel'));
-var $carousel = $(".carousel").carousel({"interval":0});
-hammer.get("swipe");
-hammer.on("swipeleft", function(){
-    $carousel.carousel("next");
-});
-hammer.on("swiperight", function(){
-    $carousel.carousel("prev");
-});
-</script>
+<script type="text/javascript" src="script/carousel.js"></script>>
 </body>
 </html>
