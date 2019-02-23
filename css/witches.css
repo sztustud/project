@@ -1,0 +1,17 @@
+* {
+        margin: 0;
+        padding: 0;
+}
+
+header {
+        display: grid;
+        background-color: #171a21;
+        color: #c7c5c3;
+}
+
+ul, li {
+        display: grid;
+        grid-auto-flow: column;
+        justify-content: space-around;
+        align-content: center;
+}
