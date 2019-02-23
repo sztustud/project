@@ -34,6 +34,7 @@ ul {
 .carousel {
         display: grid;
         color: white;
+        grid-auto-flow: column;
 }
 
 .book {
