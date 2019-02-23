@@ -19,10 +19,24 @@ header ul, header li {
 .content {
         display: grid;
         background-color: #1c3e55;
-        grid-template-columns: 75vw;
+        grid-auto-flow: column;
+        justify-content: space-around;
 }
 
 .content ul{
         color: #66c0f4;
 }
 
+ul {
+        list-style-type: none;
+}
+
+.carousel {
+        display: grid;
+        color: white;
+}
+
+.book {
+        display: grid;
+        grid-auto-flow: column;
+}
