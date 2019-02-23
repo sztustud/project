@@ -20,7 +20,7 @@ header ul, header li {
         display: grid;
         background-color: #1c3e55;
         grid-auto-flow: column;
-        justify-content: space-around;
+        justify-content: center;
 }
 
 .content ul{
